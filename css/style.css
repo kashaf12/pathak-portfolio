@@ -414,7 +414,7 @@ p {
 	height: 730px;
 	width: 100%;
   margin-top: 90px;
-  background-image: url(/images/banner/bg.webp);
+  background-image: url(../images/banner/bg.webp);
 	position: relative;
 	overflow: hidden;
 	background-color: #14151a;
