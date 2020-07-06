@@ -152,9 +152,9 @@ p {
 	-ms-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
-	-webkit-box-shadow: 0px 5px 8px 0px #162d59;
-	-moz-box-shadow: 0px 5px 8px 0px #162d59;
-	box-shadow: 0px 5px 8px 0px #162d59;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 	background-color: #162d59;
 	text-transform: uppercase;
 }
@@ -372,35 +372,7 @@ p {
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 }
-.navigation .navbar .navbar-nav .nav-item a::before {
-	position: absolute;
-	content: "";
-	width: 3px;
-	height: 0;
-	background-color: #56a5c9;
-	left: 50%;
-	top: -50px;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-	-webkit-transition: all 0.3s ease-out 0s;
-	-moz-transition: all 0.3s ease-out 0s;
-	-ms-transition: all 0.3s ease-out 0s;
-	-o-transition: all 0.3s ease-out 0s;
-	transition: all 0.3s ease-out 0s;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.navigation .navbar .navbar-nav .nav-item a::before {
-		display: none;
-	}
-}
-@media (max-width: 767px) {
-	.navigation .navbar .navbar-nav .nav-item a::before {
-		display: none;
-	}
-}
+
 .navigation .navbar .navbar-nav .nav-item.active a,
 .navigation .navbar .navbar-nav .nav-item:hover a {
 	color: #56a5c9;
