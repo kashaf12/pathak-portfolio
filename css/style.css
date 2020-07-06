@@ -720,7 +720,7 @@ p {
 	z-index: -2;
 }
 #about .methods {
-	color: #5918df;
+	color: #56a5c9;
 	display: inline;
 }
 #about .propname {
@@ -1051,7 +1051,7 @@ p {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(117, 78, 249, 0.8);
+	background-color: rgba(22, 45, 89, 0.8);
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.3s ease-out 0s;
@@ -1360,8 +1360,8 @@ p {
 }
 
 .contact-box {
-	background-color: #fff;
-	border: 1px solid #ddd;
+	background-color: #162d59;
+	border: 1px solid #162d59;
 	padding: 30px 35px;
 	-webkit-transition: all 0.3s ease-out 0s;
 	-moz-transition: all 0.3s ease-out 0s;
@@ -1381,7 +1381,7 @@ p {
 }
 .contact-box .contact-icon i {
 	font-size: 48px;
-	color: #754ef9;
+	color: #f3eeef;
 }
 .contact-box .contact-content {
 	margin-top: 15px;
@@ -1556,9 +1556,9 @@ p.form-message.error.form-message.error {
 	display: none;
 }
 .back-to-top:hover {
-	color: #fff;
-	background-color: #754ef9;
-	border-color: #754ef9;
+	color: #162d59;
+	background-color: #f3eeef;
+	border-color: #f3eeef;
 }
 
 /*===========================
