@@ -1556,15 +1556,15 @@ p.form-message.error.form-message.error {
 }
 
 .footer-copyright {
-	background-color: #1c2940;
+	background-color: #14151a;
 }
 .footer-copyright .copyright-text p {
-	color: #fff;
+	color: #f3eeef;
 }
 
 .back-to-top {
 	font-size: 20px;
-	color: #fff;
+	color: #f3eef3;
 	position: fixed;
 	right: 20px;
 	bottom: 20px;
@@ -1572,8 +1572,8 @@ p.form-message.error.form-message.error {
 	height: 50px;
 	line-height: 46px;
 	border-radius: 50%;
-	border: 2px solid #586376;
-	background-color: #152136;
+	border: 2px solid #162d59;
+	background-color: #162d59;
 	text-align: center;
 	z-index: 99;
 	-webkit-transition: all 0.3s ease-out 0s;
