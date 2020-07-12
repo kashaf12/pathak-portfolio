@@ -213,7 +213,7 @@ p {
 	text-align: left;
 }
 .preloader p {
-	border-right: solid 3px rgba(0, 255, 0, 0.75);
+	border-right: solid 3px rgba(117, 78, 249, 0.75);
 	white-space: nowrap;
 	overflow: hidden;
 	font-family: "Source Code Pro", monospace;
@@ -243,10 +243,24 @@ p {
 
 @keyframes animated-cursor {
 	from {
-		border-right-color: rgba(0, 255, 0, 0.75);
+		border-right-color: rgba(117, 78, 249, 0.75);
 	}
 	to {
 		border-right-color: transparent;
+	}
+}
+
+@media (max-width: 767px) {
+	.preloader p {
+		font-size: 15px;
+	}
+	@keyframes animated-text {
+		from {
+			width: 0;
+		}
+		to {
+			width: 200px;
+		}
 	}
 }
 
